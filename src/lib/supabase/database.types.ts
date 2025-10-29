@@ -20,6 +20,7 @@ export type Database = {
           content: string
           created_at: string | null
           id: string
+          summary: string | null
           tags: string[] | null
           title: string
           updated_at: string | null
@@ -29,6 +30,7 @@ export type Database = {
           content: string
           created_at?: string | null
           id?: string
+          summary?: string | null
           tags?: string[] | null
           title: string
           updated_at?: string | null
@@ -38,6 +40,7 @@ export type Database = {
           content?: string
           created_at?: string | null
           id?: string
+          summary?: string | null
           tags?: string[] | null
           title?: string
           updated_at?: string | null
